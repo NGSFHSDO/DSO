@@ -8,9 +8,9 @@ from typing import Protocol
 import pandas as pd
 
 
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
+PROJECT_ROOT = Path(__file__).resolve().parent
 DEFAULT_UNIVERSE_PATH = PROJECT_ROOT / "data" / "KRX300.xlsx"
-DEFAULT_RESULTS_DIR = PROJECT_ROOT / "zzz" / "results"
+DEFAULT_RESULTS_DIR = PROJECT_ROOT / "results"
 
 STATUS_BUY = "매수"
 STATUS_SELL = "매도"
