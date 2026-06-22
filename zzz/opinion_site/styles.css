@@ -1,0 +1,96 @@
+.block-container {
+    max-width: 1520px;
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+}
+
+h1, h2, h3, p, button, input, label {
+    letter-spacing: 0 !important;
+}
+
+div[data-testid="stMetric"] {
+    border: 1px solid #d9dde3;
+    border-radius: 6px;
+    padding: 0.7rem 0.85rem;
+    background: #ffffff;
+}
+
+div[class*="st-key-tile_"] button {
+    min-height: 58px;
+    border-radius: 6px;
+    justify-content: flex-start;
+    text-align: left;
+    line-height: 1.2;
+    padding: 0.55rem 0.65rem;
+    font-size: 0.88rem;
+    font-weight: 650;
+}
+
+div[class*="st-key-tile_buy_"] button {
+    color: #8e1b1b;
+    background: #fff5f4;
+    border-color: #e4aaa5;
+}
+
+div[class*="st-key-tile_sell_"] button {
+    color: #15509a;
+    background: #f2f7fd;
+    border-color: #9ebee4;
+}
+
+div[class*="st-key-tile_error_"] button {
+    color: #704500;
+    background: #fff9ea;
+    border-color: #dfc27a;
+}
+
+div[class*="st-key-tile_missing_"] button {
+    color: #555d67;
+    background: #f7f8fa;
+    border-color: #d3d7dc;
+}
+
+div[class*="st-key-tile_"] button:hover {
+    border-color: #262b31;
+    color: #111418;
+}
+
+.opinion-detail {
+    border-top: 1px solid #cfd4da;
+    border-bottom: 1px solid #cfd4da;
+    padding: 1rem 0;
+    margin: 0.5rem 0 1.25rem;
+}
+
+.opinion-badge {
+    display: inline-block;
+    border-radius: 4px;
+    padding: 0.2rem 0.5rem;
+    font-size: 0.82rem;
+    font-weight: 700;
+    margin-left: 0.45rem;
+}
+
+.opinion-badge.buy {
+    color: #8e1b1b;
+    background: #fff0ef;
+    border: 1px solid #e4aaa5;
+}
+
+.opinion-badge.sell {
+    color: #15509a;
+    background: #edf5ff;
+    border: 1px solid #9ebee4;
+}
+
+.opinion-badge.error {
+    color: #704500;
+    background: #fff7df;
+    border: 1px solid #dfc27a;
+}
+
+.opinion-badge.missing {
+    color: #555d67;
+    background: #f4f5f6;
+    border: 1px solid #d3d7dc;
+}
