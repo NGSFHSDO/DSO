@@ -42,7 +42,7 @@ STATUS_UI = {
 
 
 st.set_page_config(
-    page_title="KRX300 Signal Board",
+    page_title="KRX300 매수/매도 시그널",
     page_icon=":material/monitoring:",
     layout="wide",
     initial_sidebar_state="collapsed",
